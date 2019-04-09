@@ -1,14 +1,14 @@
 <!DOCTYPE html>
         <html lang="en">
         <head>
-            <link rel="stylesheet" type="text/css" href="style.css" media="screen" >
+            <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
             <!--<link rel="stylesheet" type="text/css" media="max-device-width: 720px" href="mobile.css" />--!>
             <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-            <link rel="stylesheet" href="animate.css">
+            <link rel="stylesheet" href="css/animate.css">
             <meta charset="UTF-8">
             <title>My portfolio</title>
-            <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-            <script src="wow.js"></script>
+            <link rel="icon" href="favicon.png" type="image/x-icon"/>
+            <script src="js/wow.js"></script>
             <script>
                 new WOW().init();
             </script>
@@ -16,20 +16,31 @@
 <body>
 <div id="content">
     <div id="header">
-            <div class="animated bounceInRight" id="contact"><img src="contact.png" width="350vw" style="position: absolute; right: 200px; top: 120px;"></div>
+            <div class="animated bounceInRight" id="contact"><img src="img/contact.png" width="350vw" style="position: absolute; right: 200px; top: 120px;"></div>
             <div class="animated bounceInLeft" style="position: absolute; right: 620px; top: 200px;"><h1 style="color: #ffffff"><p>CONTACT ME TO ESTABILISH A GOOD</p><p>RELATIOSHIP</p></h1></div>
         <div id="menu"><table><tr>
-            <td><a class="btnfos btnfos-1" href="index.html" align="center">Home</a></td>
-            <td><a class="btnfos btnfos-1" href="about.html" align="center">About us</a></td>
-            <td><a class="btnfos btnfos-1" href="portfolio.html" align="center">Portfolio</a></td>
-            <td><a class="btnfos btnfos-1" href="resume.html" align="center">Resume</a></td>
-            <td><a class="btnfos btnfos-1" href="#" align="center">Contact</a></td>
+            <td><a class="btnfos btnfos-1" href="index.html" align="center">Главная</a></td>
+            <td><a class="btnfos btnfos-1" href="about.html" align="center">Обо мне</a></td>
+            <td><a class="btnfos btnfos-1" href="portfolio.html" align="center">Портфолио</a></td>
+            <td><a class="btnfos btnfos-1" href="resume.html" align="center">Резюме</a></td>
+            <td><a class="btnfos btnfos-1" href="#" align="center">Контакты</a></td>
         </tr></table></div>
+        <div id="circle">
+            <svg>
+                <circle r="80" cx="100px" cy="100px" fill="white"/>
+                <div class="icon">
+                    <div class="arrow"></div>
+                </div>
+                <script src="js/arrow.js"></script>
+            </svg>
+        </div>
     </div>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
     <div id="parent">
         <div class="wow bounceBlockInUp">
             <div class="wow fadeIn" align="center">
-            <h1 style="margin-top: 30px;"><p align="center">CONTACT ME TODAY</p></h1>
+            <h1 style="margin-top: 30px;"><p align="center"><br>CONTACT ME TODAY</p></h1>
             <p style="margin-top: 10px">Please feel free to reach out to me if you have anu questions or comments about the services i offer.</p>
             <p>Also, you could always just send me a friendly hello.</p>
             <h3 style="margin-top: 90px;">CONTACT INFORMATION</h3>
