@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
-    <!--<link rel="stylesheet" type="text/css" media="max-device-width: 720px" href="mobile.css" />--!>
+    <!--<link rel="stylesheet" type="text/css" media="max-device-width: 720px" href="mobile.css" />-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <meta charset="UTF-8">
@@ -18,13 +18,7 @@
     <div id="header">
         <div class="animated bounceInRight" id="contact"><img src="img/resume.png" width="350vw" style="position: absolute; right: 200px; top: 120px;"></div>
         <div class="animated bounceInLeft" style="position: absolute; right: 620px; top: 200px;"><h1 style="color: #ffffff"><p>LOOK AT MY RESUME TO GET KNOW ME</p><p>DEEPER</p></h1></div>
-        <div id="menu"><table><tr>
-            <td><a class="btnfos btnfos-1" href="index.html" align="center">Главная</a></td>
-            <td><a class="btnfos btnfos-1" href="about.html" align="center">Обо мне</a></td>
-            <td><a class="btnfos btnfos-1" href="portfolio.html" align="center">Портфолио</a></td>
-            <td><a class="btnfos btnfos-1" href="#" align="center">Резюме</a></td>
-            <td><a class="btnfos btnfos-1" href="contact.html" align="center">Контакты</a></td>
-        </tr></table></div>
+        <div id="menu"></div>
         <div id="circle">
             <svg>
                 <circle r="80" cx="100px" cy="100px" fill="white"/>
@@ -86,5 +80,10 @@
         </table>
     </div>
 </div>
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="js/menu.js" type="text/babel"></script>
 </body>
 </html>
