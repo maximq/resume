@@ -1,6 +1,7 @@
 const element = (
     <div>
         <table>
+            <tbody>
             <tr>
                 <td><a className="btnfos btnfos-1" href="#" align="center">Главная</a></td>
                 <td><a className="btnfos btnfos-1" href="about.html" align="center">Обо мне</a></td>
@@ -8,6 +9,7 @@ const element = (
                 <td><a className="btnfos btnfos-1" href="resume.html" align="center">Резюме</a></td>
                 <td><a className="btnfos btnfos-1" href="contact.html" align="center">Контакты</a></td>
             </tr>
+            </tbody>
         </table>
     </div>
 );
