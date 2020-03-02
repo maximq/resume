@@ -3,7 +3,9 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
     <!--<link rel="stylesheet" type="text/css" media="max-device-width: 720px" href="mobile.css" />-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/progress.css" media="screen">
     <link rel="stylesheet" href="css/animate.css">
     <meta charset="UTF-8">
     <title>Maximq Digital</title>
@@ -34,56 +36,34 @@
     <div id="parent">
         <div class="wow bounceBlockInUp">
             <div class="wow fadeIn" align="center">
-                <h1 style="margin-top: 30px;"><p align="center"><br>ABOUT ME</p></h1>
-                <p style="margin-top: 10px">Please feel free to reach out to me if you have anu questions or comments about the services i offer.</p>
-                <p>Also, you could always just send me a friendly hello.</p>
+                <br>
+                <h1 style="margin-top: 30px">Мои навыки</h1>
+                <div class="userCourses"></div>
+                <p>Статистика автоматически спарсена с моего профиля на сайте <a target="_blank" style="color: blue" href="https://www.sololearn.com/Profile/4523689">SoloLearn</a> с помощью JS и jQuery</p>
+                <br>
+                <h1><p align="center">Мои сертификаты</p></h1>
+                <br>
+                <h3>SoloLearn</h3>
+
+                <div id="certs">
+                    <div><a target="_blank" href="https://www.sololearn.com/Certificate/1073-4523689/pdf/"><img src="img/cert-1073-4523689.jpg"></a></div>
+                    <div><a target="_blank" href="https://www.sololearn.com/Certificate/1014-4523689/pdf/"><img src="img/cert-1014-4523689.jpg"></a></div>
+                    <div><a target="_blank" href="https://www.sololearn.com/Certificate/1023-4523689/pdf/"><img src="img/cert-1023-4523689.jpg"></a></div>
+                    <div><a target="_blank" href="https://www.sololearn.com/Certificate/1059-4523689/pdf/"><img src="img/cert-1059-4523689.jpg"></a></div>
+                </div>
 
             </div>
         </div>
     </div>
     <div id="clear"></div>
-    <div id="footer">
-        <table style="position: absolute; margin-left: 10%; margin-top: 2%;">
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="about.html">About us</a></td>
-                <td><a href="portfolio.html">Portfolio</a></td>
-            </tr>
-            <tr>
-                <td><a href="resume.html">Resume</a></td>
-                <td><a href="contact.html">Contact</a></td>
-            </tr>
-        </table>
-        <h3 style="float: right; margin-right: 25%">Follow Me</h3>
-        <div style="position: absolute; margin-left: 68%; margin-top: 2%; width: 30%;">
-            <div class="social github">
-                <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-            </div>
-            <div class="social instagram">
-                <a href="https://www.instagram.com/maximqa.a/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-            </div>
-            <div class="social vk">
-                <a href="https://vk.com/id164297962" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
-            </div>
-            <div class="social telegram">
-                <a href="#" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
-            </div>
-        </div>
-        <table style="font-size: 30px; position: absolute; margin-left: 40%;"><tr>
-            <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
-            <td><b style="font-size: 18px;">vip.maksmax@gmail.com</b></td>
-        </tr>
-            <tr>
-                <td><i class="fa fa-phone-square" aria-hidden="true"></i></td>
-                <td><b style="font-size: 18px;">+79511933733</b></td>
-            </tr>
-        </table>
-    </div>
+    <div id="footer"></div>
 </div>
 
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 <script src="js/menu.js" type="text/babel"></script>
+<script src="js/getstat.js" type="text/babel"></script>
+<script src="js/footer.js" type="text/babel"></script>
 </body>
 </html>
